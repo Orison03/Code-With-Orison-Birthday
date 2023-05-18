@@ -36,3 +36,14 @@
 -- component must be UPPERCASE 
 -- invoke inside of a functional component body 
 -- don't call hooks conditionally
+
+### useEffect Hook 
+-- useEffect is a hook in React that allows you to perform side effects in a functional component 
+-- Side Effect -- any work outside of a component. Example of side effect the fetching data, subscriptions, DOM, event listeners, timers etc
+
+-- useEffect is a hook from react
+-- accepts 2 arguments (Nb -- the second is optional)
+-- 1st argument (cb function)
+-- second argument -- dependency array 
+-- the useEffect hook runs after every re-render
+-- cb can't return promise (so can't make it async)
